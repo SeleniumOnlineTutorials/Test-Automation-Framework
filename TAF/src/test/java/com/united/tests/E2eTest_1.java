@@ -33,7 +33,7 @@ public class E2eTest_1 {
 		hpage.enterDestination("Boston");
 		hpage.enterDate("Jun 12");
 		hpage.clickOnFindFlights();
-		
+		System.out.println("my changes");
 		bpage.selectFlight();
 		tpage.enterTravelInformation();
 	}

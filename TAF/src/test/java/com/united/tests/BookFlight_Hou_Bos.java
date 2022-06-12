@@ -11,6 +11,7 @@ public class BookFlight_Hou_Bos {
  @Test(priority=4)
   public void test1(String s, String s1) {
 	  System.out.println(s+s1);
+	  System.out.println("my changes");
 	  
   }
  @Test(priority=1)

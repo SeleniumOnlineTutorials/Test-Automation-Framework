@@ -11,7 +11,7 @@ public class BrowserInitialization {
 	
 	ConfigFileReading configFileReading=null;
 	public static WebDriver launchApplication(ConfigFileReading configFileReading){
-		
+		System.out.println("my changes");
 		if(configFileReading.getBrowser("Browser").equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver",configFileReading.getDriverPath("DriverPath") );
 			driver=new ChromeDriver();
